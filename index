@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Be My Valentine ❤️</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #ffe6eb, #fff);
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      padding-top: 80px;
+    }
+    h1 {
+      color: #c9184a;
+      font-size: 3em;
+    }
+    p {
+      font-size: 1.3em;
+      margin: 20px;
+      color: #333;
+    }
+    button {
+      background: #ff4d6d;
+      color: white;
+      border: none;
+      padding: 15px 35px;
+      margin: 15px;
+      font-size: 1.2em;
+      border-radius: 30px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #e0315b;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Romantic Jazz Music -->
+  <audio autoplay loop>
+    <source src="https://cdn.pixabay.com/audio/2022/10/26/audio_8b5d0f62b4.mp3" type="audio/mpeg">
+  </audio>
+
+  <h1>Ruye ❤️</h1>
+  <p>
+    Every moment with you feels special.  
+    Your smile, your laugh, your heart — they mean everything to me.
+  </p>
+
+  <h1>Will You Be My Valentine? 💘</h1>
+
+  <button onclick="goToFinal()">Yes 💕</button>
+  <button onclick="goToFinal()">Of Course 😘</button>
+
+  <script>
+    function goToFinal() {
+      document.body.innerHTML = `
+        <h1>Date Confirmed 💖</h1>
+        <p>
+          I can’t wait to spend Valentine’s Day with you, Ruye.  
+          Get ready for love, laughter, and beautiful memories 💐
+        </p>
+        <p style="font-size:2em;">🥂🌹🎶</p>
+      `;
+    }
+  </script>
+
+</body>
+</html>
